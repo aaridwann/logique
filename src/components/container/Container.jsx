@@ -7,7 +7,7 @@ function ContainerComponent({ children, title }) {
       <Head>
         <title>{title}</title>
       </Head>
-      <main className="min-h-screen max-w-screen-sm border-2 mx-auto">{children}</main>
+      <main className="min-h-screen max-w-screen-sm border-2 mx-auto relative">{children}</main>
     </Suspense>
   );
 }
